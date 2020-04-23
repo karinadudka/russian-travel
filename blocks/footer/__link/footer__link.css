@@ -1,0 +1,32 @@
+.footer__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+	.footer__link {
+        padding:0;
+        
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+	.footer__link{
+		width:93,75%;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+	.footer__link {
+        display: block;
+        margin-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
+	}
+}
