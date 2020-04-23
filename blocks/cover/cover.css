@@ -13,6 +13,7 @@
      background-image: url(../../images/__background.png);
      width: 1184px;
      height: 740px;
+     margin: 0 auto 92px;
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
