@@ -1,6 +1,7 @@
 .lead__image-container {
     max-width:984px;
-    margin: auto;
+	margin: auto;
+	position: relative;
 
 }
 
