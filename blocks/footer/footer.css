@@ -27,7 +27,7 @@
 	.footer{
 		flex-direction: column;
 		width: 58%;
-		margin: 0 auto 24px 16px;
+		margin: 0 auto 0 16px;
 		align-items: flex-start;
 	}
 }

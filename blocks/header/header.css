@@ -1,6 +1,6 @@
 @import url(./__logo/header__logo.css);
-@import url(./__lang-link-en/header__lang-link-en.css);
-@import url(./__lang-link-ru/header__lang-link-ru.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 @import url(./__lang-links/header__lang-links.css);
 
 .header {
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 28px 48px 0;
+    margin: 0 48px 0;
    
 
 }

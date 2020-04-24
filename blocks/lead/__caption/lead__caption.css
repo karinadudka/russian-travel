@@ -1,5 +1,5 @@
 .lead__caption {
-    width: 159px;
+    max-width: 159px;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;
@@ -10,28 +10,27 @@
     margin-top:8px;
 }
 
-
-@media screen and (min-width:1024px) and (max-width:1279px) {
-	.lead__caption {
-	
-	}
-}
-
-
-
+@media screen and (min-width: 1281px) {
+    .lead__caption{
+        margin: auto;
+    }
+      }
+    
 
 
 @media screen and (min-width:768px) and (max-width:1023px) {
 	.lead__caption {
       margin: 8px 0 0 24px;
-        
-		
+        	
 	}
 }
 
 
 @media screen and (min-width:320px) and (max-width:767px){
 	.lead__caption {
-		width: 320px;
+        margin-left: 16px;
+        font-size: 10px;
+        line-height: 14px;
 	}
 }
+
